@@ -13,3 +13,7 @@ You can get the code of author's from [github](https://github.com/rymccue/golang
 
 # Install go packages
 - go get -u github.com/go-redis/redis
+- go get github.com/lib/pq
+
+# Run Postgress in Mac
+- [Postgress.app](http://postgresapp.com/documentation/)

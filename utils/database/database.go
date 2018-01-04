@@ -1,8 +1,10 @@
-package utils
+package database
 
 import (
 	"database/sql"
 	"fmt"
+
+	_ "github.com/lib/pq"
 )
 
 func Connect(user, password, dbname, host, port string) (*sql.DB, error) {
